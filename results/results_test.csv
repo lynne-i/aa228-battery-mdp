@@ -1,0 +1,5 @@
+policy,full_response_pct,response_minutes_with_shortfall,shortfall_MWh,throughput_MWh,equiv_full_cycles,mgmt_energy_charged_MWh,time_near_limits_pct,final_soc_frac,total_reward
+Value iteration,99.966,49,0.1058,289.181,144.591,21.807,2.79,0.561,-310.67
+No management,93.5,9266,22.3926,239.746,119.873,0.0,21.04,0.453,-2479.01
+Proportional (50% target),100.0,0,0.0,376.449,188.224,67.572,0.0,0.49,-410.23
+Myopic (gamma=0),93.5,9266,22.3926,239.746,119.873,0.0,21.04,0.453,-2479.01
