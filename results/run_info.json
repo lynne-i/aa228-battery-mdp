@@ -1,0 +1,71 @@
+{
+  "files": [
+    "fnew-2023-12_1min.csv.gz",
+    "fnew-2025-11_1min.csv.gz",
+    "fnew-2025-12_1min.csv.gz",
+    "fnew-2026-10_1min.csv.gz",
+    "fnew-2026-1_1min.csv.gz",
+    "fnew-2026-2_1min.csv.gz",
+    "fnew-2026-3_1min.csv.gz",
+    "fnew-2026-4_1min.csv.gz",
+    "fnew-2026-5_1min.csv.gz",
+    "fnew-2026-6_1min.csv.gz",
+    "fnew-2026-7_1min.csv.gz",
+    "fnew-2026-8_1min.csv.gz",
+    "fnew-2026-9_1min.csv.gz"
+  ],
+  "minutes_total": 570240,
+  "train_minutes": 427680,
+  "test_minutes": 142560,
+  "train_period": [
+    "2023-12-01 00:00:00+00:00",
+    "2026-07-24 23:59:00+00:00"
+  ],
+  "test_period": [
+    "2026-07-25 00:00:00+00:00",
+    "2026-10-31 23:59:00+00:00"
+  ],
+  "missing_minutes_test": 0,
+  "transitions_counted": 427679,
+  "bin_counts_train": {
+    "<-0.2": 185,
+    "[-0.2,-0.1)": 55140,
+    "[-0.1,-0.05)": 80250,
+    "[-0.05,-0.015)": 61812,
+    "[-0.015,0.015)": 32720,
+    "[0.015,0.05)": 64643,
+    "[0.05,0.1)": 79430,
+    "[0.1,0.2)": 53422,
+    ">0.2": 78
+  },
+  "vi_iterations": 191995,
+  "gamma": 0.9999,
+  "battery": {
+    "E_cap": 1.0,
+    "E_min_frac": 0.0,
+    "E_max_frac": 1.0,
+    "P_commit": 1.0,
+    "eta_c": 0.95,
+    "eta_d": 0.95
+  },
+  "droop": {
+    "deadband": 0.015,
+    "full_dev": 0.5
+  },
+  "reward": {
+    "lam_short": 100.0,
+    "lam_deg": 1.0,
+    "lam_energy": 0.5
+  },
+  "actions_MW": [
+    -0.2,
+    -0.1,
+    -0.05,
+    0.0,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "n_soc": 51,
+  "dirichlet_alpha": 1.0
+}
